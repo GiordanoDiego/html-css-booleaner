@@ -19,6 +19,34 @@ background-position: center;
     color: #3EACE6;
 }
 
-#data{
+.font_small{
     font-size: small;
+}
+
+ul {
+    margin: 15px;
+    padding: 0px;
+}
+
+.evidenziatore{
+background-color: yellow;
+}
+
+.size_art{
+    height: 150px;
+    width: 150px;
+    font-size: small;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#art1{
+    background-image: url('img/monitor.jpg');
+}
+#art2{
+    background-image: url('img/graph.jpg');
 }
