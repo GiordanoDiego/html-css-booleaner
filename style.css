@@ -1,9 +1,25 @@
-#pattern_header {
-background-image: url('./img/pattern.png');
-background-color: #4EA0FF;
-background-repeat: repeat;
-background-position: center;
+*{
+margin: 2px;
+padding: 0;
+box-sizing: border-box;
 }
+
+#pattern_header{
+    background-image: url(img/pattern.png);
+    background-color: #3DA9E5;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+/*centrare la pagina importante
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px; il mio contenuto al massimo è  1200px
+}
+*/
+
+
 
 #logo{
     width: 220px;
@@ -31,6 +47,25 @@ ul {
 .evidenziatore{
 background-color: yellow;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse; /*serve per togliere lo spazio bianco tra le celle*/ 
+  }
+.size_col{
+    width: 50%;
+}
+
+thead{
+    background-color: #3DA9E5;
+    color: white;
+}
+
+.background_aqua{
+    background-color:#B1E5F2;
+}
+
+
 
 .size_art{
     height: 150px;
