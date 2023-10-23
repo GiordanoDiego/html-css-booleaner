@@ -10,3 +10,15 @@ background-position: center;
     height: 100px;
     padding: 10px;
 }
+
+.color_gray{
+    color: gray;
+}
+
+.color_blue{
+    color: #3EACE6;
+}
+
+#data{
+    font-size: small;
+}
