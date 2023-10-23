@@ -1,3 +1,12 @@
-h1 {
-    color: aqua;
+#pattern_header {
+background-image: url('./img/pattern.png');
+background-color: #4EA0FF;
+background-repeat: repeat;
+background-position: center;
+}
+
+#logo{
+    width: 220px;
+    height: 100px;
+    padding: 10px;
 }
